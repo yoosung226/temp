@@ -96,6 +96,7 @@ h1 {
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
@@ -130,13 +131,16 @@ main {
   flex-wrap: wrap;
 }
 section {
-  background-color: #ffff11;
-  width: 66%;
+  background-color: #ffffff;
+  width: 70%;
 }
 
 aside {
-  background-color: #00ff44;
-  width: 34%;
+  background-color: #ffe6e8;
+  width: 30%;
+}
+aside * {
+  padding: 10%;
 }
 
 @media screen and (max-width: 500px) {
@@ -144,4 +148,14 @@ aside {
   aside {
     width: 100%;
   }
+}
+.text_box_1 {
+  width: 60%;
+  margin: auto;
+  padding-top: 2%;
+}
+
+a:hover {
+  background-color: rgb(240, 61, 16);
+  color: white;
 }
