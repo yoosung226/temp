@@ -139,8 +139,17 @@ aside {
   background-color: #ffe6e8;
   width: 30%;
 }
-aside * {
+/*aside * {
   padding: 10%;
+}*/
+
+#text1 {
+  padding: 10%;
+  padding-bottom: 5%;
+}
+
+#text2 {
+  padding: 0% 10% 3% 10%;
 }
 
 @media screen and (max-width: 500px) {
