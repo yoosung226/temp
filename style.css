@@ -136,12 +136,27 @@ section {
 }
 
 aside {
+  position: absolute;
+  z-index: 0;
   background-color: #ffe6e8;
+  width: 30%;
+  height: 230%;
+  top: 0;
+  right: 0;
   width: 30%;
 }
 /*aside * {
   padding: 10%;
 }*/
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10%;
+  background-color: #ffe6e8;
+  width: 30%;
+  height: 300%;
+  z-index: 999;
+}
 
 #text1 {
   padding: 10%;
@@ -168,3 +183,55 @@ a:hover {
   background-color: rgb(240, 61, 16);
   color: white;
 }
+
+.pokeballs {
+  display: inline;
+  box-sizing: border-box;
+}
+
+.pokeballs img:hover {
+  opacity: 50%;
+}
+
+form {
+  /* background-color: #cf4343; */
+
+  height: 30px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10%;
+}
+
+input {
+  box-sizing: border-box;
+  overflow: hidden;
+
+  font: 16px Karla;
+  height: 100%;
+  width: 100%%;
+  padding: 10px 0px;
+}
+::placeholder {
+  color: #ffb0b7;
+  opacity: 1;
+}
+
+button {
+  cursor: pointer;
+  height: 100%;
+  width: 10%;
+
+  color: white;
+  background-color: #ff919a;
+}
+/* 
+input {
+  all: unset;
+  font: 16px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+} */
